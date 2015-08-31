@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background:url(../images/backgrounds/Sunbeams.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding-top:70px;
+	padding-bottom:20px;
+}
+
+.col-md-4 {
+	background-color: rgba(54,54,54, 0.6);
+	color:white;
+	padding-bottom:20px;
+}
+
+.navbar-default {
+	background-color:#00A576;	
+}
+
+.navbar-default li {
+	background: linear-gradient(to right, #00A576 50%, #067554 50%);
+	background-size: 200% 100%;
+ 	background-position:left top;
+  	transition:all 1s ease;	
+}
+
+.navbar-default a{
+	text-decoration:none;
+  	color: white;
+  	text-transform: uppercase;
+	display:block;
+	padding-top:15px;
+	padding-bottom:15px;
+	transition:all 1s ease-in-out;
+}
+
+.navbar-default li:hover{
+	background-position:right top;
+}
+
+.navbar-default li:hover a{
+	color:#CCC;
+}
+
+.navbar-fixed-top {
+	color:white;
+}
